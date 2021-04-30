@@ -1,0 +1,19 @@
+.about {
+    display: flex;
+    padding-top: 100px;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    border: 2px solid black;
+
+}
