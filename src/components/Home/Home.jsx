@@ -25,7 +25,7 @@ function Carousel() {
         <div className={styles.image}>
             {/* <h3 className={styles.sliderText}>BESPOKE GARDEN SOLUTIONS</h3> */}
             <button className={styles.btn}>
-                <a className={styles.btnLink} href="#contact">GET IN TOUCH</a>
+                <a className={styles.btnLink} href="#contact">Get a Quote</a>
             </button>
             <img className={styles.image} src={image} />
         </div>
@@ -52,7 +52,7 @@ const Home = () => {
             <div id="home" className={styles.home}>
                 
                 
-                <Carousel />
+                <Carousel className={styles.home} />
                 
                 {/* <div className={styles.landingText}>
                     <h1>Hi, We're Glamorgan Gardens</h1>
